@@ -1,0 +1,16 @@
+.texto1 {
+    background-color: rgb(144, 144, 144);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.Formulário {
+    background-color: rgb(91, 91, 91);
+    width: 500px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    
+}
