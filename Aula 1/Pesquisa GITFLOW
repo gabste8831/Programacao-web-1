@@ -1,0 +1,5 @@
+Pesquisa Sobre o GITFLOW
+
+O Gitflow é uma metodologia que organiza como os desenvolvedores trabalham juntos no código de um projeto. Ele usa diferentes ramificações (branches) para manter o código organizado e garantir que as novas funcionalidades sejam desenvolvidas e testadas sem afetar o que já está funcionando.
+Existem duas ramificações principais: master, que contém o código que está em produção, e develop, onde os desenvolvedores integram o novo código antes de lançar. Além dessas, existem ramificações temporárias para novas funcionalidades, preparações para lançamentos e correções de problemas urgentes.
+Essa estrutura ajuda a manter o código estável e facilita a colaboração entre os desenvolvedores, garantindo que todos saibam onde colocar suas mudanças e como integrar seu trabalho com o dos outros.
