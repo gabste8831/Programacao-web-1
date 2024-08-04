@@ -1,5 +1,21 @@
-Pesquisa Sobre o GITFLOW
+Pesquisa sobre o GITFLOW
 
-O Gitflow é uma metodologia que organiza como os desenvolvedores trabalham juntos no código de um projeto. Ele usa diferentes ramificações (branches) para manter o código organizado e garantir que as novas funcionalidades sejam desenvolvidas e testadas sem afetar o que já está funcionando.
-Existem duas ramificações principais: master, que contém o código que está em produção, e develop, onde os desenvolvedores integram o novo código antes de lançar. Além dessas, existem ramificações temporárias para novas funcionalidades, preparações para lançamentos e correções de problemas urgentes.
-Essa estrutura ajuda a manter o código estável e facilita a colaboração entre os desenvolvedores, garantindo que todos saibam onde colocar suas mudanças e como integrar seu trabalho com o dos outros.
+Aluno: Gabriel Steffens
+Curso: Sistemas de Informação T28
+
+
+
+
+O Gitflow é uma metodologia de uso do Git que organiza e gerencia o desenvolvimento de software de forma eficiente. Ele define um conjunto de práticas para criar e manter diferentes ramificações (branches) do código, ajudando equipes de desenvolvimento a colaborar de maneira organizada e a manter a estabilidade do software em produção.
+
+ O fluxo de trabalho começa com duas branches principais: master e develop. A branch master contém o código estável que está em produção, enquanto a branch develop contém o código em desenvolvimento.
+
+Sua principal vantagem é a organização estruturada que proporciona, dividindo o desenvolvimento em diferentes branches para cada tipo de tarefa, como desenvolvimento de novas funcionalidades, correções de bugs e preparações para lançamentos.
+Estabilidade e qualidade, gerenciamento de lançamento de versões, paralelismo no desenvolvimento, com operações simultâneas sem comprometer a “base” do código, e por fim, histórico de desenvolvimento são alguns outros fatores muito importantes de ressaltar quando falamos do Gitflow.
+
+Em resumo, o Gitflow é benéfico porque melhora a organização do projeto, facilita a colaboração, mantém a estabilidade do código, e permite um gerenciamento eficiente dos lançamentos e correções de problemas críticos. Importante realçar que, em um ponto de vista simplificado, o github seria o espaço onde a metodologia gitflow pode ser aplicada. Creio que veremos muito sobre esses métodos.
+
+
+
+
+Link para Meu Repositório: https://github.com/gabste8831/Programacao-web-1 
