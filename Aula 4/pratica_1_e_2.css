@@ -1,0 +1,84 @@
+/* Reset básico para margem e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container para o formulário */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilização do cabeçalho */
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilização do formulário */
+.form {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Estilização dos labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilização dos inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="color"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilização dos inputs de radio */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilização dos botões */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+}
