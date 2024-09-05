@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Notas dos Alunos</title>
+    <title>Notas dos Alunos Prática Aula 5</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
 
 <h2>Notas dos Alunos</h2>
 
-<table border="1">
+<table border="1" id="tabelaNotas">
     <tr>
         <th>Aluno</th>
         <th colspan="3">Semestre 1</th>
@@ -99,6 +100,10 @@
         <td><input type="number" min="0" max="10"></td>
     </tr>
 </table>
+
+<br>
+<button onclick="adicionarLinha()">Adicionar Média de Notas</button>
+<button onclick="adicionarColuna()">Adicionar Média dos Alunos</button>
 
 </body>
 </html>

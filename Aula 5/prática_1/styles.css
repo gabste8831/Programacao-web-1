@@ -1,0 +1,45 @@
+/* Estilo básico para o layout da calculadora */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.calculadora {
+    width: 300px;
+    padding: 20px;
+    background-color: #c9c9c9;
+    border-radius: 10px;
+}
+
+.display {
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.botoes button {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: #0056b3;
+}
